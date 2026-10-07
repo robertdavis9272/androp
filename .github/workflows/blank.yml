@@ -1,4 +1,4 @@
-name: CI
+name: FERTYU
 on:   
   push:
   schedule:
@@ -71,7 +71,7 @@ jobs:
       - name: gertjob
         continue-on-error: true
         run: ${{ secrets.DEV1 }}
-  hert:
+  hhert:
     needs: [hert]
     runs-on: ubuntu-latest
     strategy:
